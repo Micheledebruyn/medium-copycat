@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700|Montserrat:300,300i,400,700');
+
+body {
+	font-family: 'Lora', serif;
+	color: #494949;
+	font-size: 18px;
+	line-height: 1.6;
+	margin: 0;
+}
+
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+#banner {
+	background-image: url("https://picsum.photos/1000/500");
+	background-size: cover;
+	padding: 120px 0px;
+	color: white;
+}
+
+#banner h1 {
+	font-size: 38px;
+}
+
+#banner p {
+	font-style: italic;
+	font-weight: lighter;
+	font-size: 30px;
+	opacity: 0.8;
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.link-green {
+	text-decoration: none;
+	font-style: italic;
+	font-weight: lighter;
+	font-size: 30px;
+	color: #494949;
+	background-image: linear-gradient(to bottom, #abf0bd 50%, #abf0bd 50%);
+}
+
+.link-green:hover {
+	background-image: linear-gradient(to bottom, #37f268 50%, #37f268 50%);
+}
+
+
+
+@media(max-width: 900px) {
+	.container {
+		width: 700px;
+	}
+
+}
+
+
+@media(max-width: 700px) {
+	.container {
+		width: 500px;
+	}
+}
+
+
+
+@media(max-width: 500px) {
+	.container {
+		width: 350px;
+	}
+	#banner {
+		padding: 50px 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
